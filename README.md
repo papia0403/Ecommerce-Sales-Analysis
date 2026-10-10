@@ -188,7 +188,6 @@ Ecommerce-Sales-Analysis/
 
 ### 🔄 Workflow
 
-````markdown
 ```mermaid
 flowchart LR
     subgraph EXCEL["📗 Part 1 — Excel"]
@@ -213,7 +212,6 @@ flowchart LR
     classDef py fill:#dbeafe,stroke:#3776ab,color:#000;
     class A,B,C,D,E excel;
     class F,G,H,I,J py;
-```
 ````
 
 The Excel workbook contains these sheets:
