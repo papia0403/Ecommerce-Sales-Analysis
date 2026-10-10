@@ -108,10 +108,22 @@ The data is item-level and some Order IDs appear with more than one status, so t
 
 ## 🛠 Tools & Technologies
 
-- **Microsoft Excel** — data cleaning, helper columns, pivot tables, KPI summary, dashboard
-- **Python** — `pandas`, `matplotlib`
-- **Jupyter Notebook**
-- **Git / GitHub** — version control and project presentation
+<p align="center">
+  <img src="https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" alt="Excel">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas">
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge" alt="Matplotlib">
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+</p>
+
+| Tool | Used for |
+|---|---|
+| 📗 **Microsoft Excel** | Data cleaning, helper columns, pivot tables, KPI summary, dashboard |
+| 🐍 **Python** (`pandas`, `matplotlib`) | Data cleaning, analysis, charts, validation |
+| 📓 **Jupyter Notebook** | Running and documenting the Python analysis |
+| 🔧 **Git / GitHub** | Version control and project presentation |
 
 ---
 
@@ -178,10 +190,31 @@ Ecommerce-Sales-Analysis/
 ## 🔄 Workflow
 
 ```
-Raw Excel data ──► Excel cleaning & checks ──► Pivot tables ──► KPI summary ──► Dashboard
-                                   │
-                                   ▼
-                  Python: load ► quality checks ► cleaning ► analysis ► charts ► export cleaned CSV
+```mermaid
+flowchart LR
+    subgraph EXCEL["📗 Part 1 — Excel"]
+        direction LR
+        A["📥 Raw Excel Data"] --> B["🧹 Cleaning & Checks"]
+        B --> C["📊 Pivot Tables"]
+        C --> D["📈 KPI Summary"]
+        D --> E["🖥 Dashboard"]
+    end
+
+    subgraph PY["🐍 Part 2 — Python"]
+        direction LR
+        F["📂 Load Data"] --> G["🔍 Quality Checks"]
+        G --> H["🧼 Cleaning"]
+        H --> I["📉 Analysis & Charts"]
+        I --> J["💾 Export Cleaned CSV"]
+    end
+
+    EXCEL --> PY
+
+    classDef excel fill:#d4edda,stroke:#217346,color:#000;
+    classDef py fill:#dbeafe,stroke:#3776ab,color:#000;
+    class A,B,C,D,E excel;
+    class F,G,H,I,J py;
+```
 ```
 
 The Excel workbook contains these sheets:
