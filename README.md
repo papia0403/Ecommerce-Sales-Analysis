@@ -341,7 +341,7 @@ The raw DataFrame (`df`, 31,047 × 18) is kept unchanged. The cleaned DataFrame 
   <br><em>Pivot – Category</em>
 </p>
 
-**Insight:** *Set* is the highest-value category (50.7% of the delivered amount). *Set*, *Kurta* and *Western Dress* together make up 87.9%. *Bottom* is the lowest (0.12%).
+**Insight:** **Set** is the highest-value category with ₹9,991,114, which is **50.7%** of the total delivered amount. **Kurta** (₹4,547,130) and **Western Dress** (₹2,787,574) follow, and these top three categories together make up **87.9%** of delivered sales. **Bottom** is the lowest at ₹23,516 (**0.12%**), so sales are heavily concentrated in a few categories.
 
 ### Pivot Table 4 — Recorded Amount by Order Status
 
