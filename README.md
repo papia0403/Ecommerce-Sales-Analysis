@@ -683,25 +683,58 @@ The cleaned data is saved to `data/cleaned_ecommerce_sales.csv` and re-loaded to
 
 ## ▶️ How to Run
 
+### Requirements
+
+| Requirement | Details |
+|---|---|
+| 🐍 Python | 3.8 or higher |
+| 📚 Libraries | `pandas`, `matplotlib`, `openpyxl`, `jupyter` |
+| 📗 Microsoft Excel | To open the workbook, pivot tables and dashboard |
+
+### Steps
+
+**1. Clone the repository**
+
 ```bash
-# 1. Clone the repository
-git clone https://github.com/<your-username>/Ecommerce-Sales-Analysis.git
+git clone https://github.com/papia0403/Ecommerce-Sales-Analysis.git
 cd Ecommerce-Sales-Analysis
-
-# 2. Install the required libraries
-pip install pandas matplotlib openpyxl jupyter
-
-# 3. Launch Jupyter and open the notebook
-jupyter notebook notebooks/full_cart_store_analysis.ipynb
 ```
 
-The notebook reads the workbook from `../data/full_cart_store_2022.xlsx`, so keep the folder structure above unchanged and run the notebook from inside `notebooks/`. To explore the Excel part, open `data/full_cart_store_2022.xlsx` and review the pivot sheets, `05_KPI_Summary` and `06_Dashboard`.
+**2. Install the required libraries**
+
+```bash
+pip install pandas matplotlib openpyxl jupyter
+```
+
+**3. Open the Python notebook**
+
+```bash
+cd notebooks
+jupyter notebook full_cart_store_analysis.ipynb
+```
+
+**4. Explore the Excel workbook**
+
+Open [`data/full_cart_store_2022.xlsx`](data/full_cart_store_2022.xlsx) and review the pivot sheets, `05_KPI_Summary` and `06_Dashboard`.
+
+> 💡 The notebook reads the workbook from `../data/full_cart_store_2022.xlsx`, so keep the folder structure unchanged and run the notebook from inside the `notebooks/` folder.
 
 ---
 
 ## 👤 Author
 
-**[Papia Khatun]**
-[LinkedIn](https://www.linkedin.com/in/papia-khatun-635761310/) · [GitHub](https://github.com/papia0403) · [Email](khatupapia032@gmail.com)
+<p align="center">
+  <b>Papia Khatun</b><br>
+  <i>Data Analytics Enthusiast</i>
+</p>
 
-*This project was completed as part of a data analytics course.*
+<p align="center">
+  <a href="https://www.linkedin.com/in/papia-khatun-635761310/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://github.com/papia0403"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="mailto:khatupapia032@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+</p>
+
+<p align="center">
+  <i>This project was completed as part of a data analytics course.</i><br>
+  ⭐ If you found this project useful, feel free to star the repository.
+</p>
