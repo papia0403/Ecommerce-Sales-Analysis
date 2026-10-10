@@ -479,7 +479,7 @@ Age groups are defined in `03_Data_processing`: **Young Adult** = under 30, **Ad
 Loads the raw sheet with `pandas` and inspects shape (31,047 × 18), column names, data types and the first rows.
 
 <p align="center">
-  <img src="images/python/data_overview.jpeg" alt="Data Overview" width="85%">
+  <img src="images/python/data_overview.jpeg.jpeg" alt="Data Overview" width="85%">
   <br><em>Data Overview</em>
 </p>
 
